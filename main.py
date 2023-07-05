@@ -88,6 +88,9 @@ def register_user():
     users.append(user)
     print_user()
 
+def print_books():
+    for book in books:
+        print(f'El título del libro es: {book.title}' + ", el autor es: " + book.author)
 
 def print_user():
     for user in users:
